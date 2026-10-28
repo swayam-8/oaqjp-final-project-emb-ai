@@ -1,4 +1,4 @@
-# Final project
+# Final Project
 
 Emotion detection with Watson NLP and Flask. Forked from the IBM course starter; starter UI and license retained.
 
@@ -26,4 +26,4 @@ python3 -m pip install -r requirements-dev.txt
 python3 -m pylint server.py EmotionDetection
 ```
 
-Local adapter checks passed in the separate emotion-detector-flask repository; live Watson requests from that environment returned HTTP 503. Course lab verification is pending. No graded submission has been made.
+Local adapter checks passed in the separate emotion-detector-flask repository; live Watson requests from that environment returned HTTP 503. Course lab verification succeeded: all five Watson acceptance cases passed and Pylint scored 10.00/10. See VALIDATION.md. No graded submission has been made.
